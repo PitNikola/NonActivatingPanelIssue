@@ -11,6 +11,16 @@
 		8B14E8C224001A390070F59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8C124001A390070F59A /* ViewController.swift */; };
 		8B14E8C424001A3B0070F59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B14E8C324001A3B0070F59A /* Assets.xcassets */; };
 		8B14E8C724001A3B0070F59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B14E8C524001A3B0070F59A /* Main.storyboard */; };
+		8B14E8D924001A6B0070F59A /* NSEventModifierFlags+HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D024001A6B0070F59A /* NSEventModifierFlags+HotKey.swift */; };
+		8B14E8DA24001A6B0070F59A /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D124001A6B0070F59A /* KeyCombo.swift */; };
+		8B14E8DB24001A6B0070F59A /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D224001A6B0070F59A /* Key.swift */; };
+		8B14E8DC24001A6B0070F59A /* HotKeysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D324001A6B0070F59A /* HotKeysController.swift */; };
+		8B14E8DD24001A6B0070F59A /* KeyCombo+System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D424001A6B0070F59A /* KeyCombo+System.swift */; };
+		8B14E8DE24001A6B0070F59A /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D524001A6B0070F59A /* HotKey.swift */; };
+		8B14E8DF24001A6B0070F59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D624001A6B0070F59A /* ViewController.swift */; };
+		8B14E8E024001A6B0070F59A /* MainPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D724001A6B0070F59A /* MainPanel.swift */; };
+		8B14E8E124001A6B0070F59A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8D824001A6B0070F59A /* SearchBarView.swift */; };
+		8B14E8E324001AF60070F59A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14E8E224001AF60070F59A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +31,16 @@
 		8B14E8C624001A3B0070F59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B14E8C824001A3B0070F59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B14E8C924001A3B0070F59A /* NonActivatingPanelIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NonActivatingPanelIssue.entitlements; sourceTree = "<group>"; };
+		8B14E8D024001A6B0070F59A /* NSEventModifierFlags+HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSEventModifierFlags+HotKey.swift"; sourceTree = "<group>"; };
+		8B14E8D124001A6B0070F59A /* KeyCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCombo.swift; sourceTree = "<group>"; };
+		8B14E8D224001A6B0070F59A /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		8B14E8D324001A6B0070F59A /* HotKeysController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKeysController.swift; sourceTree = "<group>"; };
+		8B14E8D424001A6B0070F59A /* KeyCombo+System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyCombo+System.swift"; sourceTree = "<group>"; };
+		8B14E8D524001A6B0070F59A /* HotKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
+		8B14E8D624001A6B0070F59A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B14E8D724001A6B0070F59A /* MainPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPanel.swift; sourceTree = "<group>"; };
+		8B14E8D824001A6B0070F59A /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		8B14E8E224001AF60070F59A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,11 @@
 		8B14E8BE24001A390070F59A /* NonActivatingPanelIssue */ = {
 			isa = PBXGroup;
 			children = (
+				8B14E8CF24001A6B0070F59A /* HotKey */,
+				8B14E8D724001A6B0070F59A /* MainPanel.swift */,
+				8B14E8E224001AF60070F59A /* Constants.swift */,
+				8B14E8D824001A6B0070F59A /* SearchBarView.swift */,
+				8B14E8D624001A6B0070F59A /* ViewController.swift */,
 				8B14E8BF24001A390070F59A /* AppDelegate.swift */,
 				8B14E8C124001A390070F59A /* ViewController.swift */,
 				8B14E8C324001A3B0070F59A /* Assets.xcassets */,
@@ -61,6 +86,19 @@
 				8B14E8C924001A3B0070F59A /* NonActivatingPanelIssue.entitlements */,
 			);
 			path = NonActivatingPanelIssue;
+			sourceTree = "<group>";
+		};
+		8B14E8CF24001A6B0070F59A /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				8B14E8D024001A6B0070F59A /* NSEventModifierFlags+HotKey.swift */,
+				8B14E8D124001A6B0070F59A /* KeyCombo.swift */,
+				8B14E8D224001A6B0070F59A /* Key.swift */,
+				8B14E8D324001A6B0070F59A /* HotKeysController.swift */,
+				8B14E8D424001A6B0070F59A /* KeyCombo+System.swift */,
+				8B14E8D524001A6B0070F59A /* HotKey.swift */,
+			);
+			path = HotKey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +171,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B14E8C224001A390070F59A /* ViewController.swift in Sources */,
+				8B14E8DB24001A6B0070F59A /* Key.swift in Sources */,
 				8B14E8C024001A390070F59A /* AppDelegate.swift in Sources */,
+				8B14E8E024001A6B0070F59A /* MainPanel.swift in Sources */,
+				8B14E8DF24001A6B0070F59A /* ViewController.swift in Sources */,
+				8B14E8DE24001A6B0070F59A /* HotKey.swift in Sources */,
+				8B14E8DD24001A6B0070F59A /* KeyCombo+System.swift in Sources */,
+				8B14E8E124001A6B0070F59A /* SearchBarView.swift in Sources */,
+				8B14E8DC24001A6B0070F59A /* HotKeysController.swift in Sources */,
+				8B14E8DA24001A6B0070F59A /* KeyCombo.swift in Sources */,
+				8B14E8D924001A6B0070F59A /* NSEventModifierFlags+HotKey.swift in Sources */,
+				8B14E8E324001AF60070F59A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
