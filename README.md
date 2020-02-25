@@ -1,9 +1,18 @@
 # Sample project for non-activating panel issue
 
 ## Problem
-When showing NSPanel (with .nonactivatingPanel style) without activating the application, mouse cursor doesn't change over areas such as text fields, text areas or links. E.g. if mouse is over a text field, mouse cursor should change to I-beam. Manually changing cursor using NSCursor.iBeam.push() doesn't work as well. There are examples of other apps that somehow worked around it:
-* Spotlight - if I invoke spotlight search bar and mouse over it, the cursor will change to I-beam.
-* 1Password Helper (see attached screenshot) - the app is not being activated, but the panel have proper i-beam cursor over the search field. 
+When showing NSPanel (with .nonactivatingPanel style) without activating the application, mouse cursor doesn't change over areas such as text fields, text areas or links. E.g. if mouse is over a text field, mouse cursor should change to I-beam. Manually changing cursor using NSCursor.iBeam.push() doesn't work as well. 
+![example](https://raw.githubusercontent.com/PitNikola/NonActivatingPanelIssue/master/non-working-example.png)
+
+There are examples of other apps that somehow worked around it:
+* Spotlight - if I invoke spotlight search bar and move mouse over it, the cursor will change to I-beam.
+
+![spotlight](https://raw.githubusercontent.com/PitNikola/NonActivatingPanelIssue/master/spotlight-example.png)
+
+* 1Password Helper (see attached screenshot) - the app is not being activated, but the panel have proper i-beam cursor over the search field.
+
+![1password](https://raw.githubusercontent.com/PitNikola/NonActivatingPanelIssue/master/1password-example.png)
+
 
 ## Repro steps
 In the attached project, I'm showing a simple non-activating NSPanel, similar to Spotlight.
